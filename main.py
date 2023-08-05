@@ -14,7 +14,7 @@ width, height = 640, 480
 out = cv2.VideoWriter(output_file, fourcc, fps, (width, height))
 
 # Replace the RTSP URL with your camera's RTSP stream URL
-rtsp_url = "rtsp://robot:robot1234@192.168.10.188:554/Streaming/Channels/501"
+rtsp_url = "rtsp://username:password@ip_address:port/Streaming/Channels/channel_number"
 cap = cv2.VideoCapture(rtsp_url)
  
 while True:
